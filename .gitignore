@@ -1,0 +1,17 @@
+m1a/.venv/
+__pycache__/
+*.pyc
+
+# Blender scene + rendered/generated artifacts — regenerate from scripts,
+# don't bloat the repo with binary EXR/blend files.
+m1a/scene.blend
+m1a/s1/
+m1a/s2/
+m1a/s3/
+m1a/s2_small/
+m1a/s2_low/
+m1a/test_aovs.exr
+m1a/test_truth.exr
+m1a/test_mine.exr
+m1a/test_scene.json
+m1a/diff.exr
